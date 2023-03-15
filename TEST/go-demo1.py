@@ -410,26 +410,7 @@ def evaluate(color):
 
 # generate move
 def genmove(color):
-    #######################################################################
-    #
-    #    AI logic (first defense, then attack)
-    #
-    # 1. If opponent's group have only one liberty left
-    #    then capture it
-    #
-    # 2. If the group of the side to move has only one liberty
-    #    then save it by putting a stone there unless it's a board edge
-    #
-    # 3. If the group of the side to move has two liberties
-    #    then choose the the one resulting in more liberties
-    #
-    # 4. If opponent's group have more than one liberty
-    #    then try to surround it
-    #
-    # 5. Match patterns to build strong shape, if found any
-    #    consider that instead of chasing the group
-    #
-    #######################################################################
+   
     fix_random='testcase'
     best_move = 0
     capture = 0
